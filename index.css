@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+
+body {
+  font-family: Inter;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 16px;
+  overflow-x: hidden;
+ 
+}
+
+/* .light-mode {
+    --accent-color: #CCC1FF;
+    --background-color: #FFFFFF;
+    --text-color: #353535;
+    --header-color: #6943FF;
+
+}
+
+.dark-mode {
+   --accent-color: #273549;
+   --background-color: #1F2937;
+   --text-color: #FFFFFF;
+   --header-color: #CCC1FF;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper {
+    background-color: #6943FF;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    height: 400px
+}
+
+.lower {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #353535;
+    height: 500px;
+   
+
+}
+
+input {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #FFFFFF;
+    background-color: inherit;
+    color: #FFFFFF;
+    width: 150px;
+    height: 70px;
+    outline: none;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+
+
+input::placeholder {
+    color: #FFFFFF;
+    font-weight: 800;
+    text-align: center;
+    font-size: 3rem;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+
+button {
+   padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #5A537B;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #353535;
+    margin: 0;
+}
+
+.conversation-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 2rem 8rem;
+    gap: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+}
