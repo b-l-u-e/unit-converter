@@ -17,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 /* .light-mode {
@@ -54,6 +55,7 @@ body {
   justify-content: center;
   color: #ffffff;
   max-height: 400px;
+  text-align: center;
 }
 
 .lower {
