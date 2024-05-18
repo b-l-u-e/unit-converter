@@ -1,5 +1,6 @@
 {
   "name": "project",
+  "type": "module",
   "dependencies": {},
   "devDependencies": {
     "vite": "latest"
@@ -7,7 +8,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "VITE_CJS_TRACE=true vite build",
     "preview": "vite preview"
   }
 }
